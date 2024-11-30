@@ -1,0 +1,701 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1122
+  viewPortHeight: 703
+  horizontalOffset: -136
+  verticalOffset: -155
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 703
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_build_Black_87_pjs7k8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_build_swxqdw.png);"></div><div
+        class="c-text"><div class="c-title">Google Cloud Build</div><div
+        class="c-short-description">Automating and managing deployments in
+        Google Cloud Platform</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud DeployCuTw1
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Build
+        shortDescription: Automating and managing deployments in Google Cloud Platform
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Build
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Build
+      editableName: Google Cloud Build
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Build
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_build_swxqdw.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_build__044448_cqtrr9.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_build_Black_87_pjs7k8.png
+      color: "#3871e0"
+      controlText: Cloud Build
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 476
+    offsetY: 194
+    zIndex: 0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);
+        border-radius: 50%"></div></div></div>'
+    id: DockerGB4RN
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 209
+    offsetY: 224
+    zIndex: 2
+    outEdges:
+      - Straight ConnectorK47Kn
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Google Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud Runq8K3r
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Run
+      editableName: Google Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Run
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 826
+    offsetY: 147
+    zIndex: 4
+    inEdges:
+      - Straight ConnectorBJULP
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);"></div><div
+        class="c-text"><div class="c-title">Google Kubernetes Engine</div><div
+        class="c-short-description">Running and managing containerized
+        applications across multiple machines</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes EngineRgkLW
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Running and managing containerized applications across
+          multiple machines
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 826
+    offsetY: 294
+    zIndex: 5
+    inEdges:
+      - Straight ConnectorfC2I4
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png);"></div><div
+        class="c-text"><div class="c-title">Google Artifact Registry</div><div
+        class="c-short-description">Storing, managing, and securing software
+        artifacts, such as container images and language packages</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Artifact RegistryiNU2h
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Artifact Registry
+        shortDescription: Storing, managing, and securing software artifacts, such as
+          container images and language packages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Artifact Registry
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Artifact Registry
+      editableName: Google Artifact Registry
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Artifact Registry
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry__044448_hdcc5a.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png
+      color: "#3871e0"
+      controlText: Artifact Registry
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 29
+    offsetY: 247
+    zIndex: 1
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_deploy_Black_87_ldti07.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_deploy_xqe0wu.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Deploy</div><div
+        class="c-short-description">Automating and managing deployments in
+        Google Cloud Platform</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud DeployVv5MQ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Deploy
+        shortDescription: Automating and managing deployments in Google Cloud Platform
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Deploy
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Deploy
+      editableName: Cloud Deploy
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Deploy
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_deploy_xqe0wu.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_deploy__044448_m41bjw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_deploy_Black_87_ldti07.png
+      color: "#3871e0"
+      controlText: Cloud Deploy
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 451
+    offsetY: 227
+    zIndex: 8
+    inEdges:
+      - Straight ConnectorK47Kn
+    outEdges:
+      - Straight ConnectorBJULP
+      - Straight ConnectorfC2I4
+      - Dashed Straight Nondirectional ConnectorssEKg
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #207FA8;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/Skaffold_Black_87_wvq0my.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/Skaffold_ha0rxb.png);"></div><div
+        class="c-text"><div class="c-title">Skaffold</div><div
+        class="c-short-description">Streamlining the development and deployment
+        process of Kubernetes applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Skaffold</div></div></div></div></div>'
+    id: SkaffoldBxkZ1
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Skaffold
+        shortDescription: Streamlining the development and deployment process of
+          Kubernetes applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Skaffold
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Skaffold
+      editableName: Skaffold
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+      name: Skaffold
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/Skaffold_ha0rxb.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/Skaffold__0484848_jg67j6.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/Skaffold_Black_87_wvq0my.png
+      color: "#207FA8"
+      controlText: Skaffold
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 451
+    offsetY: 374
+    zIndex: 9
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorssEKg
+connectors:
+  - id: Straight ConnectorK47Kn
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 259
+      y: 224.62
+    targetPoint:
+      x: 301
+      y: 225.14
+    sourceID: DockerGB4RN
+    targetID: Google Cloud DeployVv5MQ
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Straight ConnectorBJULP
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 601
+      y: 195
+    targetPoint:
+      x: 676
+      y: 179
+    sourceID: Google Cloud DeployVv5MQ
+    targetID: Google Cloud Runq8K3r
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight ConnectorfC2I4
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 601
+      y: 253.8
+    targetPoint:
+      x: 676
+      y: 267.2
+    sourceID: Google Cloud DeployVv5MQ
+    targetID: Google Kubernetes EngineRgkLW
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight Nondirectional ConnectorssEKg
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 451
+      y: 277
+    targetPoint:
+      x: 451
+      y: 324
+    sourceID: Google Cloud DeployVv5MQ
+    targetID: SkaffoldBxkZ1
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+selectedItems:
+  width: 0
+  height: 0
